@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -33,8 +33,14 @@
 
 <body>
     <main style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <img src="/images/alsarya-logo.png" alt="AlSarya Logo" style="width: 200px; height: 200px;">
-        <h1 style="font-size: 3rem; text-align: center;">🚧 Under Construction 🚧</h1>
+        <img src="/images/alsarya-logo-2024-tiny.png" alt="AlSarya Logo" style="width: 200px; height: 200px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h1 style="font-size: 3rem; text-align: center;">🚧 Under Construction 🚧</h1>
+            <p style="font-size: 1.5rem; text-align: center;">We are working hard to bring you the best experience.</p>
+        </div>
+        <div style="display: flex; position: absolute; bottom: 0; right: 0; padding: 10px;">
+            Views: <span id="views">1,254</span>
+        </div>
     </main>
 </body>
 
