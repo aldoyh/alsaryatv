@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+function hits() {
+
+    $hits = file(__DIR__ . '/../data/hits.txt')[0];
+    echo $hits++;
+}
+?><!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
@@ -42,7 +48,7 @@
             </p>
         </div>
         <div style="display: flex; position: absolute; bottom: 0; right: 0; padding: 10px;">
-            <?php if (file_) ?>
+            <?php hits() ?>
         </div>
     </main>
 </body>
