@@ -37,10 +37,12 @@
         <img src="/images/alsarya-logo-2024-tiny.png" alt="AlSarya Logo" style="width: 200px; height: 200px;">
         <div style="display: flex; flex-direction: column; align-items: center;">
             <h1 style="font-size: 3rem; text-align: center;">🚧 برنامج السارية قريباًً 🚧</h1>
-            <p style="font-size: 1.5rem; text-align: center;">We are working hard to bring you the best experience.</p>
+            <p style="font-size: 1.5rem; text-align: center;">
+
+            </p>
         </div>
         <div style="display: flex; position: absolute; bottom: 0; right: 0; padding: 10px;">
-            <?php echo '2,233'; ?>
+            <?php if (file_) ?>
         </div>
     </main>
 </body>
