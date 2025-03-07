@@ -1,7 +1,7 @@
 <?php
 function hits() {
 
-    $hits = file(__DIR__ . '/../data/hits.txt')[0];
+    $hits = file(__DIR__ . '/data/hits.txt')[0];
     echo $hits++;
 }
 ?><!DOCTYPE html>
