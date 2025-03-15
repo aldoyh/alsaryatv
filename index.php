@@ -2,6 +2,8 @@
 function hits() {
 
     $hits = file(__DIR__ . '/data/hits.txt')[0];
+    $hits++;
+    file_put_content(__DIR__ . '/data/hits.txt', $hits);
     echo $hits++;
 }
 ?><!DOCTYPE html>
